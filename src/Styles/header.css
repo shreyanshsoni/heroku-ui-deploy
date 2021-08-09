@@ -1,0 +1,36 @@
+.zoomlogout {
+    /* padding:  12px 14px 11px 15px; */
+    background-color: tranprant;
+    transition: transform .2s; /* Animation */
+    
+  }
+  
+  .zoomlogout:hover {
+    /* transform: scale(1.1,1.1); (150% zoom) */
+    color:#ce0505;
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 2px;
+  }
+.loggedInUserName{
+    float: right;
+    color:white;
+    font-weight: bold;
+    margin: 20px 20px 0px 0px;
+    
+}
+
+.loggedOutUserName{
+    float: right;
+    color:white;
+    font-weight: bold;
+    margin: 20px 20px 0px 0px;
+    border: 0.5px solid white;
+    border-radius: 2px;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.closebtn {
+  cursor: pointer;
+}
